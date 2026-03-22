@@ -2,6 +2,11 @@
 
 > **Showcase Repository:** To comply with EPITA's anti-plagiarism regulations, the raw source code of this project is kept private. This repository serves as an architectural showcase documenting the neural network design, the image processing pipeline, and the solver logic.
 
+### 👥 The Team
+* **[Wael Akhdar](Ton_Lien_GitHub)**
+* **[Youcef Zahra](https://github.com/youcefzahra)**
+* **[Jessim Ziani](https://github.com/jessim-ziani)**
+
 ## 📖 Project Context
 
 **OCR Word Search Solver** is a second-year engineering project developed at EPITA. The objective was to build a complete Optical Character Recognition (OCR) software from scratch in C to automatically read and solve word search grids from images.
