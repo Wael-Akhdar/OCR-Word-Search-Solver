@@ -40,6 +40,6 @@ The engine processes raw images through a strict computer vision pipeline before
 |:---:|:---:|:---:|
 | <img src="img/step4.jpg" width="250" alt="Auto-rotate"> | <img src="img/step5.jpg" width="250" alt="Detect Components"> | <img src="img/step6.jpg" width="250" alt="Resolution"> |
 
-## 🌐 Project Website
+## 🌐 Project Website (French)
 You can learn more about the development process on our dedicated project website:
 [*(OCR Word Search Solver Website)*](https://projet-ocr.netlify.app/)
