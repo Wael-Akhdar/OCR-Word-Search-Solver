@@ -28,6 +28,9 @@ To recognize the extracted characters, I built a Multi-Layer Perceptron (MLP) en
 * **Graphical Interface:** A fluid UI allows users to intuitively load an image, visualize the processing steps (binarization, grid detection), and display the solved puzzle.
 * **Showcase Website:** A dedicated companion website was developed to present the project, the team, and the underlying technology.
 
+## 🛠️ Skills
+`C` · `Convolutional Neural Networks` · `Git`
+
 ## 🎯 Demonstration (Computer Vision Pipeline)
 
 The engine processes raw images through a strict computer vision pipeline before feeding the extracted characters to the Neural Network.
@@ -40,11 +43,32 @@ The engine processes raw images through a strict computer vision pipeline before
 |:---:|:---:|:---:|
 | <img src="img/step4.jpg" width="250" alt="Auto-rotate"> | <img src="img/step5.jpg" width="250" alt="Detect Components"> | <img src="img/step6.jpg" width="250" alt="Resolution"> |
 
+## 🚀 How to test the project?
+
+A pre-compiled Linux build (GTK interface + command-line mode, trained network weights and sample grids) is available in the **Releases** section.
+
+**Requirements:** Linux x86_64 (Ubuntu 22.04+, Debian 12+ or WSL2 on Windows 11) with GTK 3 and SDL2:
+```bash
+sudo apt install libgtk-3-0 libsdl2-2.0-0 libsdl2-image-2.0-0   # libgtk-3-0t64 on Ubuntu 24.04+
+```
+
+1. Download `ocr-solver-linux-x86_64.tar.gz` from the Releases section and extract it:
+   ```bash
+   tar -xzf ocr-solver-linux-x86_64.tar.gz && cd ocr-solver-linux-x86_64
+   ```
+2. Start the graphical interface:
+   ```bash
+   ./ocr-solver
+   ```
+3. Load an image from `examples/`, then click **Grayscale**, **Process Image**, **Auto Rotate** and **Résoudre la grille** step by step.
+
+Prefer the terminal? `./ocr-solver --cli examples/level_1_image_1.png result.bmp` runs the whole pipeline in one go. See `HOW_TO_RUN.txt` in the archive for details and known limitations.
+
 ## 🌐 Project Website (French)
 You can learn more about the development process on our dedicated project website:
 [*(OCR Word Search Solver Website)*](https://projet-ocr.netlify.app/)
 
 ### 👥 The Team
-* **[Wael Akhdar](Ton_Lien_GitHub)**
+* **[Wael Akhdar](https://github.com/Wael-Akhdar)**
 * **[Youcef Zahra](https://github.com/youcefzahra)**
 * **[Jessim Ziani](https://github.com/jessim-ziani)**
